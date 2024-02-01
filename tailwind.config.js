@@ -9,6 +9,11 @@ export default {
       },
       textColor: {
         'custom': '#008080',
+        'customgrey': '#575757',
+        
+      },
+      fontFamily: {
+        'sans': ['Inter', 'sans-serif'],
       },
     },
   },

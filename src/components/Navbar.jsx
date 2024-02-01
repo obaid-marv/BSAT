@@ -3,7 +3,7 @@ const Navbar = ()=>{
 
 
     return(
-        <div className="container flex flex-row mx-auto max-w-screen-lg p-4 mt-5" style={{fontFamily:'Inter, sans-serif'}}>
+        <div className="container flex flex-row mx-auto max-w-screen-lg py-4 mt-5">
             <div className="container flex flex-1 items-center">
                 <p className="text-2xl font-bold">BSAT</p>
             </div>
