@@ -7,12 +7,18 @@ export default {
       backgroundColor: {
         'custom': '#008080',
         'customlightblue':'#E0F8F8',
+        'customblue':'#DAFAFC',
+        'customred':'#FDE4E4',
+        'customgreen':'#DAFCDF',
+        'customlightgr':'#2CDFD5',
         'theme':'#008080'
+
       },
       textColor: {
         'custom': '#008080',
         'customgrey': '#575757',
-        'custompurple': '#7660EE'
+        'custompurple': '#7660EE',
+        'customlightgr':'#2CDFD5'
       },
       fontFamily: {
         'sans': ['Inter', 'sans-serif'],

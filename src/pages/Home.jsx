@@ -10,6 +10,7 @@ import webaud from "../assets/webaud.png"
 import directorimg from "../assets/directorimg.png"
 import analystimg from "../assets/analystimg.png"
 import attorneyimg from "../assets/attorneyimg.png"
+import getstarted from "../assets/getstarted.png"
 import group1 from "../assets/group1.svg"
 import group2 from "../assets/group2.svg"
 import group3 from "../assets/group3.svg"
@@ -17,6 +18,12 @@ import group4 from "../assets/group4.svg"
 import group5 from "../assets/group5.svg"
 import group6 from "../assets/group6.svg"
 import arrowright from "../assets/arrowright.svg"
+import hat from "../assets/hat.svg"
+import shield from "../assets/shield.svg"
+import apps from "../assets/apps.svg"
+
+
+
 
 const Home = () => {
 
@@ -280,7 +287,7 @@ const Home = () => {
                                         <p className="text-md font-medium text-gray-200">Analyst</p>
                                     </div>
                                 </div>
-                                <p className="text-sm text-white leading-6 mt-8">Financial expertise has made a significant impact on our nonprofit financial stability, allowing us to better serve our community</p>
+                                <p className="text-sm text-white leading-6 mt-8">Financial planning and investment advice I received from this team completely transformed my future. I couldnt be happier with the results.</p>
                                 <div className="contianer flex flex-row-reverse items-center">
                                     <p className="text-7xl font-chonburi mt-4 text-white">“</p>
                                 </div>
@@ -298,21 +305,88 @@ const Home = () => {
                                         <p className="text-md font-medium text-gray-400">Attorney</p>
                                     </div>
                                 </div>
-                                <p className="text-sm text-customgrey leading-6 font-medium mt-8">Financial expertise has made a significant impact on our nonprofit financial stability, allowing us to better serve our community</p>
+                                <p className="text-sm text-customgrey leading-6 font-medium mt-8">Estate planning is crucial, and they made the process seamless and stress-free. I can rest assured knowing familys future is secure</p>
                                 <div className="contianer flex flex-row-reverse items-center">
                                     <p className="text-7xl font-chonburi mt-4 text-custom">“</p>
                                 </div>
-
                             </div>
+                        </div>
+            </div>
 
+            <div className="container max-w-screen-lg mt-24">
 
+                <div className="container w-1/2">
+                <p className="text-2xl font-bold">Our Team Provides Valuable Services at Any Time in Any Situation</p>
+                </div> 
 
+                <div className="container flex items-center justify-between mt-16">
+                        <div className="container flex flex-col justify-between w-80 h-72">
+                                <div className="container flex items-center justify-center h-24 w-24 bg-customblue rounded-full">
+                                    <img src={hat} alt="IMG here"/>
+                                </div>
+                                <p className="text-xl font-bold">Expert Guidance</p>
+                                <p className="text-sm font-medium text-customgrey">Rely on seasoned professionals for <br/> tailored SEO advice and strategic <br/>planning aligned with your unique goals</p>
+                                <button className="font-medium text-custom w-28 text-left">Read more</button>
                         </div>
 
+                        <div className="container flex flex-col justify-between w-80 h-72">
+                                <div className="container flex items-center justify-center h-24 w-24 bg-customred rounded-full">
+                                    <img src={shield} alt="IMG here"/>
+                                </div>
+                                <p className="text-xl font-bold">Risk Management</p>
+                                <p className="text-sm font-medium text-customgrey">We expertly handle and proactively <br/> mitigate financial risks, ensuring the <br/> safeguard of assets and overall stability</p>
+                                <button className="font-medium text-custom w-28 text-left">Read more</button>
+                        </div>
+
+                        <div className="container flex flex-col justify-between w-80 h-72">
+                                <div className="container flex items-center justify-center h-24 w-24 bg-customgreen rounded-full">
+                                    <img src={apps} alt="IMG here"/>
+                                </div>
+                                <p className="text-xl font-bold">Customized Solutions</p>
+                                <p className="text-sm font-medium text-customgrey">Receive and Benefit from with financial <br/> solutions that tailored to your unique <br/> financial challenges and aspirations</p>
+                                <button className="font-medium text-custom w-28 text-left">Read more</button>
+                        </div>  
+                </div>
+            </div>
+
+
+            <div className="container flex items-center h-max justify-between max-w-screen-lg bg-custom mt-32 py-14 px-14 rounded-md rounded-tl-[30px] rounded-br-[30px]">
+                <div className="container flex flex-col justify-between h-80 w-1/2 ">
+                    <div className="container flex flex-row items-center justify-start pt-0">
+                        <p className="text-md font-bold text-customlightgr">START NOW</p>                        
+                        <div className="container h-0.5 ml-4 w-20 bg-customlightgr rounded shadow-custom1">    
+                        </div>
+                    </div>
+                    <p className="text-4xl font-bold text-white">Get Start For Free No Credit Card Required </p>
+                    <div className="relative flex items-center">
+                            <input
+                            type="email"
+                            name="email"
+                            id="email"
+                            className="font-semibold rounded-sm py-4 px-5 w-80 placeholder-gray-500"
+                            style={{
+                                boxShadow: "rgba(0, 0, 0, 0.1) 0px 10px 50px",
+                                border:'1px solid white'
+                            }}
+                            placeholder="Email address"
+                            />
+                            <button style={{boxShadow: 'rgba(100, 100, 111, 0.2) 0px 7px 29px 0px'}} className="font-medium text-white bg-customlightgr py-4 w-40 rounded-sm ml-2">Get Started</button>
+                    </div>
+                    <div className="container flex mb-6">
+                        <p className="text-sm font-medium text-gray-200">Want to contact our team and book a call?</p>
+                        <p className="text-sm font-medium text-customlightgr pl-1"> Try it now</p>
+                    </div>
+                </div>
+                
+                <div className="container w-1/2">
+                    <img src={getstarted} alt="IMG here" className="h-full w-full object-cover"/>
+                </div>
 
 
 
             </div>
+
+
 
         </div>
     )
