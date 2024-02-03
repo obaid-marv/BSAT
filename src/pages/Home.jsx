@@ -2,6 +2,14 @@ import Navbar from "../components/Navbar";
 
 import envelopeIcon from "../assets/email.svg";
 import coverimg from "../assets/mainimg.png"
+import servicesimg from "../assets/servicesimg.png"
+import keyres from "../assets/keyres.png"
+import citsug from "../assets/citsug.png"
+import webana from "../assets/webana.png"
+import webaud from "../assets/webaud.png"
+import directorimg from "../assets/directorimg.png"
+import analystimg from "../assets/analystimg.png"
+import attorneyimg from "../assets/attorneyimg.png"
 import group1 from "../assets/group1.svg"
 import group2 from "../assets/group2.svg"
 import group3 from "../assets/group3.svg"
@@ -53,7 +61,7 @@ const Home = () => {
                 <p className="text-4xl font-bold">Full Services to Grow Your Business </p>
             </div>
 
-            <div className="container max-w-screen-md mt-10 mb-6">
+            <div className="container max-w-screen-md mt-10 mb-6 pl-4">
                 <p className="text-base font-medium text-customgrey">Rely on seasoned professionals for tailored SEO advice and strategic planning aligned with your unique goals</p>
             </div>
 
@@ -177,12 +185,135 @@ const Home = () => {
                         />
                     </div>
                 </div>
+            </div>
+            
+
+            <div className="container flex flex-row max-w-6xl h-max mt-16 p-4">
+                <div className="container">
+                    <div className="container bg-customlightblue rounded-sm rounded-tl-[30px] rounded-br-[30px] h-max shadow-custom1">
+                        <img src={servicesimg} alt="COVER IMG" className="h-full w-full object-cover"/>
+                    </div>
+                </div>
+
+                <div className="container flex flex-col pl-12 py-0 justify-between ">
+                    <div className="container flex flex-row items-center justify-start pt-0">
+                        <div className="container bg-customlightblue p-1 w-32 rounded shadow-custom1">
+                            <p className="text-md font-bold text-custom">OUR SERVICES</p>
+                        </div>
+                        <div className="container h-0.5 ml-4 w-20 bg-theme rounded shadow-custom1">    
+                        </div>
+                    </div>
+
+                    <div className="container mb-20">
+                        <p className="text-4xl font-bold drop-shadow-lg">Our Services Can Help You Grow Your Business </p>
+                    </div>
+              
+                    <div className="container">
+                        <p className="text text-customgrey font-bold drop-shadow-lg">Embark on a Journey to Unlock a World of ranking Opportunities, Grow Your Investment with Our Comprehensive and Expert Services</p>
+                    </div>
+
+                    <div className="container flex flex-wrap ">
+                        <div className="container flex items-center w-1/2 h-max py-4">
+                            <img src={keyres} alt="COVER IMG" className="h-8 w-8 shadow-md"/>
+                            <p className="text-lg font-bold pl-4 drop-shadow-md">Keyword Research</p>
+                        </div>
+                        <div className="container flex items-center w-1/2 h-max py-4">
+                            <img src={citsug} alt="COVER IMG" className="h-8 w-8 shadow-md"/>
+                            <p className="text-lg font-bold pl-4 drop-shadow-md">Citation Suggestions</p>
+                        </div>
+                        <div className="container flex items-center w-1/2 h-max py-4">
+                            <img src={webaud} alt="COVER IMG" className="h-8 w-8 shadow-md"/>
+                            <p className="text-lg font-bold pl-4 drop-shadow-md">Website Audit</p>
+                        </div>
+                        <div className="container flex items-center w-1/2 h-max py-4">
+                            <img src={webana} alt="COVER IMG" className="h-8 w-8 shadow-md"/>
+                            <p className="text-lg font-bold pl-4 drop-shadow-md">Website Analytics</p>
+                        </div> 
+                    </div>
+                    <button style={{boxShadow:'rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset'}} className="font-medium text-black transform-all  duration-200 hover:bg-custom hover:text-white py-4 w-40 rounded-sm ml-2">Explore Services</button>
+                </div>
+            </div>
+
+            
+            <div className="container max-w-screen-lg mt-16 p-1 h-max">
+                        <div className="container flex items-center">
+                            <div className="container flex items-center justify-center bg-customlightblue p-1 w-36 rounded shadow-custom1">
+                                <p className="text-md font-bold text-custom">TESTIMONIALS</p>
+                            </div>
+                            <div className="container h-0.5 ml-4 w-20 bg-theme rounded shadow-custom1">    
+                            </div>
+                        </div>
+                        
+                        <div className="container flex flex-col w-1/2 h-44 mt-4 justify-around">
+                            <p className="text-4xl font-bold">What Our Customers Say</p>
+                            <p className="text text-customgrey font-semibold">Discover the Success Stories and Satisfaction of Clients Who Have Benefited from Our Expertise and Personalized Financial Guidance</p>    
+                        </div>
+
+                        <div className="container flex items-center justify-between mt-16">
+
+                            <div className="container flex w-80 h-72 flex-col justify-between border-[3px] border-grey-500 rounded-tl-[30px] rounded-br-[30px] p-8">
+                                <div className="container flex h-12">
+                                    <div className="container flex items-center h-12 w-16 rounded-full bg-gray-300 overflow-hidden">
+                                        <img src={directorimg} alt="COVER IMG" className="h-12 w-16"/>
+                                    </div>
+
+                                    <div className="container flex flex-col justifyaround px-6">
+                                        <p className="text font-bold">Grace Turner</p>
+                                        <p className="text-md font-medium text-gray-400">Director</p>
+                                    </div>
+                                </div>
+                                <p className="text-sm text-customgrey leading-6 font-medium mt-8">Financial expertise has made a significant impact on our nonprofit financial stability, allowing us to better serve our community</p>
+                                <div className="contianer flex flex-row-reverse items-center">
+                                    <p className="text-7xl font-chonburi mt-4 text-custom">“</p>
+                                </div>
+
+                            </div>
+
+                            <div className="container flex w-80 h-72 flex-col justify-between rounded-tl-[30px] rounded-br-[30px] p-8 bg-gradient-tt">
+                                <div className="container flex h-12">
+                                    <div className="container flex items-center h-12 w-16 rounded-full bg-gray-300 overflow-hidden">
+                                        <img src={analystimg} alt="COVER IMG" className="h-12 w-16"/>
+                                    </div>
+
+                                    <div className="container flex flex-col justifyaround px-6">
+                                        <p className="text font-semibold text-white">Linda Carter</p>
+                                        <p className="text-md font-medium text-gray-200">Analyst</p>
+                                    </div>
+                                </div>
+                                <p className="text-sm text-white leading-6 mt-8">Financial expertise has made a significant impact on our nonprofit financial stability, allowing us to better serve our community</p>
+                                <div className="contianer flex flex-row-reverse items-center">
+                                    <p className="text-7xl font-chonburi mt-4 text-white">“</p>
+                                </div>
+
+                            </div>
+
+                            <div className="container flex w-80 h-72 flex-col justify-between border-[3px] border-grey-500 rounded-tl-[30px] rounded-br-[30px] p-8">
+                                <div className="container flex h-12">
+                                    <div className="container flex items-center h-12 w-16 rounded-full bg-gray-300 overflow-hidden">
+                                        <img src={attorneyimg} alt="COVER IMG" className="h-12 w-16"/>
+                                    </div>
+
+                                    <div className="container flex flex-col justifyaround px-6">
+                                        <p className="text font-bold">Alex Walker</p>
+                                        <p className="text-md font-medium text-gray-400">Attorney</p>
+                                    </div>
+                                </div>
+                                <p className="text-sm text-customgrey leading-6 font-medium mt-8">Financial expertise has made a significant impact on our nonprofit financial stability, allowing us to better serve our community</p>
+                                <div className="contianer flex flex-row-reverse items-center">
+                                    <p className="text-7xl font-chonburi mt-4 text-custom">“</p>
+                                </div>
+
+                            </div>
 
 
-                
-                
+
+                        </div>
+
+
+
 
             </div>
+
         </div>
     )
 }
