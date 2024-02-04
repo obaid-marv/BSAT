@@ -21,6 +21,9 @@ import arrowright from "../assets/arrowright.svg"
 import hat from "../assets/hat.svg"
 import shield from "../assets/shield.svg"
 import apps from "../assets/apps.svg"
+import facebook from "../assets/facebook.svg"
+import twitter from "../assets/twitter.svg"
+import instagram from "../assets/instagram.svg"
 
 
 
@@ -381,11 +384,58 @@ const Home = () => {
                 <div className="container w-1/2">
                     <img src={getstarted} alt="IMG here" className="h-full w-full object-cover"/>
                 </div>
-
-
-
             </div>
 
+            <div className="container  max-w-screen-xl h-max bg-custom mt-32 px-32 pt-20 pb-16">
+
+                <div className="container flex justify-between">
+                    <div className="container flex flex-col justify-between h-64 pr-8 w-2/5">
+                        <p className="text-xl font-bold text-white">BSAT</p>
+                        <p className="text-md font-medium text-gray-200 leading-7 mb-4">Our expert financial consultants provide solutions to help you achieve financial <br/> wealth. Trust us to guide you toward a <br/>  brighter financial future.</p>
+                        <div className="container flex items-center justify-between mb-8">
+                            <div className="container flex items-center">
+                                <img src={facebook} alt="IMG here" className="h-4 w-4"/>
+                                <p className="text-sm text-white ml-2">Facebook</p> 
+                            </div>
+                            <div className="container flex items-center">
+                                <img src={twitter} alt="IMG here" className="h-4 w-4"/>
+                                <p className="text-sm text-white ml-2">Twitter</p>
+                            </div>
+                            <div className="container flex items-center">
+                                <img src={instagram} alt="IMG here" className="h-4 w-4"/>
+                                <p className="text-sm  text-white ml-2">Instagram</p>
+                            </div>
+                        </div>
+                    
+                    </div>
+
+                    <div className="container flex flex-col justify-between w-1/5 ml-12">
+                        <p className="text-lg font-bold text-white">Our Services</p>
+                        <p className="text-md font-medium text-gray-200">Keyword Research</p>
+                        <p className="text-md font-medium text-gray-200">Website Audit</p>
+                        <p className="text-md font-medium text-gray-200">Citatiin Suggestions</p>
+                        <p className="text-md font-medium text-gray-200">Website Analytics</p>
+
+                    </div>
+                    <div className="container flex flex-col justify-between w-1/5 ml-12">
+                        <p className="text-lg font-bold text-white">Explore More</p>
+                        <p className="text-md font-medium text-gray-200">About Us</p>
+                        <p className="text-md font-medium text-gray-200">Blog</p>
+                        <p className="text-md font-medium text-gray-200">Site Map</p>
+                        <p className="text-md font-medium text-gray-200">Privacy</p>
+
+                    </div>
+                    <div className="container flex flex-col w-1/5 ml-12">
+                        <p className="text-lg font-bold text-white">Contact Details</p>
+                        <p className="text-md font-medium text-gray-200 mt-8">contact@briofin.com</p>
+                        <p className="text-md font-medium text-gray-200 mt-8">+1 (555) 123-4567</p>
+                    </div>
+                </div> 
+
+                <div className="container max-w-screen-lg bg-gray-200 h-0.5 mt-12"></div>
+                <p className="text text-gray-200 mt-4">DSCODE 2023 © All rights reserved</p>
+
+            </div>
 
 
         </div>
