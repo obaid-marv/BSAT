@@ -30,6 +30,8 @@ import instagram from "../assets/instagram.svg"
 
 const Home = () => {
 
+    
+
     return(
         <div className="container mx-auto text-sans flex flex-col items-center">
             <Navbar/>
@@ -57,7 +59,7 @@ const Home = () => {
                             placeholder="Your email address"
                             />
 
-                            <button style={{boxShadow: 'rgba(100, 100, 111, 0.2) 0px 7px 29px 0px'}} className="font-medium text-white bg-custom py-4 w-40 rounded-sm ml-2">Get Started</button>
+                            <button style={{boxShadow: 'rgba(100, 100, 111, 0.2) 0px 7px 29px 0px'}} className="font-medium text-white bg-custom py-4 w-40 rounded-sm ml-2 transform-all duration-200 hover:opacity-40">Get Started</button>
                         </div>
                     </div>
                 </div>
@@ -67,7 +69,7 @@ const Home = () => {
                 </div>
             </div>
 
-            <div>
+            <div id="section1">
                 <p className="text-4xl font-bold">Full Services to Grow Your Business </p>
             </div>
 
@@ -386,22 +388,22 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className="container  max-w-screen-xl h-max bg-custom mt-32 px-32 pt-20 pb-16">
+            <div id="section2" className="container  max-w-screen-xl h-max bg-custom mt-32 px-32 pt-20 pb-16">
 
                 <div className="container flex justify-between">
                     <div className="container flex flex-col justify-between h-64 pr-8 w-2/5">
                         <p className="text-xl font-bold text-white">BSAT</p>
                         <p className="text-md font-medium text-gray-200 leading-7 mb-4">Our expert financial consultants provide solutions to help you achieve financial <br/> wealth. Trust us to guide you toward a <br/>  brighter financial future.</p>
                         <div className="container flex items-center justify-between mb-8">
-                            <div className="container flex items-center">
+                            <div className="container flex items-center cursor-pointer">
                                 <img src={facebook} alt="IMG here" className="h-4 w-4"/>
                                 <p className="text-sm text-white ml-2">Facebook</p> 
                             </div>
-                            <div className="container flex items-center">
+                            <div className="container flex items-center cursor-pointer">
                                 <img src={twitter} alt="IMG here" className="h-4 w-4"/>
                                 <p className="text-sm text-white ml-2">Twitter</p>
                             </div>
-                            <div className="container flex items-center">
+                            <div className="container flex items-center cursor-pointer">
                                 <img src={instagram} alt="IMG here" className="h-4 w-4"/>
                                 <p className="text-sm  text-white ml-2">Instagram</p>
                             </div>
@@ -411,25 +413,23 @@ const Home = () => {
 
                     <div className="container flex flex-col justify-between w-1/5 ml-12">
                         <p className="text-lg font-bold text-white">Our Services</p>
-                        <p className="text-md font-medium text-gray-200">Keyword Research</p>
-                        <p className="text-md font-medium text-gray-200">Website Audit</p>
-                        <p className="text-md font-medium text-gray-200">Citatiin Suggestions</p>
-                        <p className="text-md font-medium text-gray-200">Website Analytics</p>
-
+                        <a><p className="text-md font-medium text-gray-200 cursor-pointer">Keyword Research</p></a>
+                        <a><p className="text-md font-medium text-gray-200 cursor-pointer">Website Audit</p></a>
+                        <a><p className="text-md font-medium text-gray-200 cursor-pointer">Citatiin Suggestions</p></a>
+                        <a><p className="text-md font-medium text-gray-200 cursor-pointer">Website Analytics</p></a>
                     </div>
                     <div className="container flex flex-col justify-between w-1/5 ml-12">
                         <p className="text-lg font-bold text-white">Explore More</p>
-                        <p className="text-md font-medium text-gray-200">About Us</p>
-                        <p className="text-md font-medium text-gray-200">Blog</p>
-                        <p className="text-md font-medium text-gray-200">Site Map</p>
-                        <p className="text-md font-medium text-gray-200">Privacy</p>
-
+                        <a><p className="text-md font-medium text-gray-200 cursor-pointer">About Us</p></a>
+                        <a><p className="text-md font-medium text-gray-200 cursor-pointer">Blog</p></a>
+                        <a><p className="text-md font-medium text-gray-200 cursor-pointer">Site Map</p></a>
+                        <a><p className="text-md font-medium text-gray-200 cursor-pointer">Privacy</p></a>
+<a></a>
                     </div>
                     <div className="container flex flex-col w-1/5 ml-12">
                         <p className="text-lg font-bold text-white">Contact Details</p>
-                        <p className="text-md font-medium text-gray-200 mt-8">contact@briofin.com</p>
-                        <p className="text-md font-medium text-gray-200 mt-8">+1 (555) 123-4567</p>
-                    </div>
+                        <a><p className="text-md font-medium text-gray-200 mt-8 cursor-pointer">contact@briofin.com</p></a>
+                        <a><p className="text-md font-medium text-gray-200 mt-8 cursor-pointer">+1 (555) 123-4567</p></a>                   </div>
                 </div> 
 
                 <div className="container max-w-screen-lg bg-gray-200 h-0.5 mt-12"></div>
